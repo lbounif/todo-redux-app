@@ -1,10 +1,13 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.todo-item {
+  cursor: pointer;
+  color: red;
+}
+.todo-item--completed {
+  text-decoration: line-through;
+  color: lightgray;
 }
 
 @media (prefers-reduced-motion: no-preference) {
