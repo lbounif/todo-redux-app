@@ -1,8 +1,9 @@
 
 import './App.css';
 import Header from './components/Header'
-import AddTodo from  "./components/AddTodo"
+import AddTodo from  './components/AddTodo'
 import TodoList from './components/TodoList'
+import Filters from  './components/Filters'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <AddTodo />
       <TodoList />
+      <Filters />
     </div>
   );
 }
